@@ -146,7 +146,7 @@ Error generating stack: `+l.message+`
   overflow: hidden;
   clip: rect(0 0 0 0);
   &:checked + ${Ii}::after {
-    content: url("/arrow.svg");
+    content: url(/mindbox-app/arrow.svg);
     position: absolute;
     display: block;
     width: 18px;
