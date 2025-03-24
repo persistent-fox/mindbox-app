@@ -9,6 +9,7 @@ import { FlexWrapper } from "./components/styled/FlexWrapper";
 function App() {
   const [mode, setMode] = useState("light");
   const theme = mode === "light" ? lightTheme : darkTheme;
+  // @ts-expect-error: unused function for now
   const toggleMode = () => {
     setMode((m) => (m === "light" ? "dark" : "light"));
   };
