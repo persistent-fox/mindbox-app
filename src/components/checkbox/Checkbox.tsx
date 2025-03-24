@@ -45,7 +45,7 @@ export const Input = styled.input<TInputProps>`
   overflow: hidden;
   clip: rect(0 0 0 0);
   &:checked + ${FakeCheckbox}::after {
-    content: url("/arrow.svg");
+    content: url(/mindbox-app/arrow.svg);
     position: absolute;
     display: block;
     width: 18px;
